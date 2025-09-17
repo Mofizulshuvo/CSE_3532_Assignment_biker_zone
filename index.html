@@ -29,10 +29,12 @@
       }
     </style>
   </head>
-  <body class="poppins-thin px-36">
-    <div class="navbar bg-white flex justify-between items-center pt-12 mb-6">
+  <body class="poppins-thin md:px-36 px-2 py-3">
+    <div
+      class="navbar bg-white flex justify-between items-center md:pt-12 md:mb-6"
+    >
       <div class="navbar-start logo">
-        <a class="poppins-thin font-[700] text-4xl">Bike Dekho</a>
+        <a class="poppins-thin font-[700] text-2xl md:text-4xl">Bike Dekho</a>
       </div>
       <div class="menuAndBtn flex justify-between items-center gap-6">
         <div class="navbar hidden lg:flex">
@@ -44,7 +46,8 @@
           </ul>
         </div>
         <div class="navbar">
-          <a class="bg-[#E76F51] px-10 py-3 text-white font-[600] rounded-sm"
+          <a
+            class="bg-[#E76F51] hover:bg-[#535252] md:px-10 px-3 md:py-3 py-2 text-white font-[600] rounded-sm"
             >Login</a
           >
         </div>
@@ -53,53 +56,64 @@
 
     <div class="carousel w-full">
       <!-- slide-1 -->
-      <div id="slide1" class="carousel-item relative w-full">
-        <div class="p-24 flex justify-between items-center bg-[#FDF1EE]">
-          <div class="HPB w-1/2 p-3">
-            <h1 class="text-6xl font-[700] mb-6">Ride-on R15 V4 with Smile</h1>
-            <p class="mb-6 text-gray-800 text-justify">
+      <div id="slide1" class="carousel-item relative w-full h-[60vh]">
+        <div
+          class="p-4 md:p-24 flex-auto md:flex md:justify-between md:items-center bg-[#FDF1EE]"
+        >
+          <div class="HPB md:w-1/2 md:p-3">
+            <h1 class="text-3xl md:text-6xl font-[700] mb-2 md:mb-6">
+              Ride-on R15 V4 with Smile
+            </h1>
+            <p
+              class="mb-2 md:mb-6 text-sm md:text-[15px] text-gray-800 text-justify"
+            >
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
             <button
-              class="bg-[#E76F51] px-6 py-3 text-white font-[600] rounded-sm"
+              class="bg-[#E76F51] hover:bg-[#535252] md:px-6 px-3 md:py-3 py-2 text-white font-[600] rounded-sm"
             >
               Purchase
             </button>
           </div>
-          <div class="img w-1/2">
+          <div class="img md:w-1/2">
             <img src="images/slider/bike2.png" alt="" />
           </div>
         </div>
         <div
-          class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          class="absolute left-5 right-5 top-1/2 flex md:-translate-y-1/2 -translate-y-1/4 transform justify-between"
         >
           <a href="#slide4" class="btn btn-circle">❮</a>
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
       </div>
-
       <!-- slide-2 -->
-      <div id="slide2" class="carousel-item relative w-full">
-        <div class="p-24 flex justify-between items-center bg-[#FDF1EE]">
-          <div class="HPB w-1/2 p-3">
-            <h1 class="text-6xl font-[700] mb-6">Ride-on R15 V4 with Smile</h1>
-            <p class="mb-6 text-gray-800 text-justify">
+      <div id="slide2" class="carousel-item relative w-full h-[60vh]">
+        <div
+          class="p-4 md:p-24 flex-auto md:flex md:justify-between md:items-center bg-[#FDF1EE]"
+        >
+          <div class="HPB md:w-1/2 md:p-3">
+            <h1 class="text-3xl md:text-6xl font-[700] mb-2 md:mb-6">
+              Ride-on R15 V4 with Smile
+            </h1>
+            <p
+              class="mb-2 md:mb-6 text-sm md:text-[15px] text-gray-800 text-justify"
+            >
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
             <button
-              class="bg-[#E76F51] px-6 py-3 text-white font-[600] rounded-sm"
+              class="bg-[#E76F51] hover:bg-[#535252] md:px-6 px-3 md:py-3 py-2 text-white font-[600] rounded-sm"
             >
               Purchase
             </button>
           </div>
-          <div class="img w-1/2">
+          <div class="img md:w-1/2">
             <img src="images/slider/bike3.png" alt="" />
           </div>
         </div>
         <div
-          class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          class="absolute left-5 right-5 top-1/2 flex md:-translate-y-1/2 -translate-y-1/4 transform justify-between"
         >
           <a href="#slide1" class="btn btn-circle">❮</a>
           <a href="#slide3" class="btn btn-circle">❯</a>
@@ -107,26 +121,32 @@
       </div>
 
       <!-- slide-3 -->
-      <div id="slide3" class="carousel-item relative w-full">
-        <div class="p-24 flex justify-between items-center bg-[#FDF1EE]">
-          <div class="HPB w-1/2 p-3">
-            <h1 class="text-6xl font-[700] mb-6">Ride-on R15 V4 with Smile</h1>
-            <p class="mb-6 text-gray-800 text-justify">
+      <div id="slide3" class="carousel-item relative w-full h-[60vh]">
+        <div
+          class="p-4 md:p-24 flex-auto md:flex md:justify-between md:items-center bg-[#FDF1EE]"
+        >
+          <div class="HPB md:w-1/2 md:p-3">
+            <h1 class="text-3xl md:text-6xl font-[700] mb-2 md:mb-6">
+              Ride-on R15 V4 with Smile
+            </h1>
+            <p
+              class="mb-2 md:mb-6 text-sm md:text-[15px] text-gray-800 text-justify"
+            >
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
             <button
-              class="bg-[#E76F51] px-6 py-3 text-white font-[600] rounded-sm"
+              class="bg-[#E76F51] hover:bg-[#535252] md:px-6 px-3 md:py-3 py-2 text-white font-[600] rounded-sm"
             >
               Purchase
             </button>
           </div>
-          <div class="img w-1/2">
-            <img src="images/slider/bike3.png" alt="" />
+          <div class="img md:w-1/2">
+            <img src="images/slider/bike4.png" alt="" />
           </div>
         </div>
         <div
-          class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          class="absolute left-5 right-5 top-1/2 flex md:-translate-y-1/2 -translate-y-1/4 transform justify-between"
         >
           <a href="#slide2" class="btn btn-circle">❮</a>
           <a href="#slide4" class="btn btn-circle">❯</a>
@@ -134,27 +154,32 @@
       </div>
 
       <!-- slide-4 -->
-      <div id="slide4" class="carousel-item relative w-full">
-        <div class="p-24 flex justify-between items-center bg-[#FDF1EE]">
-          <div class="HPB w-1/2 p-3">
-            <h1 class="text-6xl font-[700] mb-6">Ride-on R15 V4 with Smile</h1>
-            <p class="mb-6 text-gray-800 text-justify">
+      <div id="slide4" class="carousel-item relative w-full h-[60vh]">
+        <div
+          class="p-4 md:p-24 flex-auto md:flex md:justify-between md:items-center bg-[#FDF1EE]"
+        >
+          <div class="HPB md:w-1/2 md:p-3">
+            <h1 class="text-3xl md:text-6xl font-[700] mb-2 md:mb-6">
+              Ride-on R15 V4 with Smile
+            </h1>
+            <p
+              class="mb-2 md:mb-6 text-sm md:text-[15px] text-gray-800 text-justify"
+            >
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
             <button
-              class="bg-[#E76F51] px-6 py-3 text-white font-[600] rounded-sm"
+              class="bg-[#E76F51] hover:bg-[#535252] md:px-6 px-3 md:py-3 py-2 text-white font-[600] rounded-sm"
             >
               Purchase
             </button>
           </div>
-          <div class="img w-1/2">
-            <img src="images/slider/bike4.png" alt="" />
+          <div class="img md:w-1/2">
+            <img src="images/slider/bike1.png" alt="" />
           </div>
         </div>
-
         <div
-          class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          class="absolute left-5 right-5 top-1/2 flex md:-translate-y-1/2 -translate-y-1/4 transform justify-between"
         >
           <a href="#slide3" class="btn btn-circle">❮</a>
           <a href="#slide1" class="btn btn-circle">❯</a>
